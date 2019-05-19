@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" media="screen" href="style/main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Didact+Gothic|Pathway+Gothic+One" rel="stylesheet">
+    <script defer src="javascript/main.js"></script>
+    <title>Conversion Program</title>
+</head>
+
+<body>
+    <div id="container">
+        <div id="topper">
+            <p><b>Witam na stronie na ktorej bedziesz mógl przeliczyc dane jednostki</b></p>
+        </div>
+        <div id="secondContainer">
+            <p id="string">Podaj swoja liczbe:
+                </p>
+                <select id="firstSelector">
+                        <option value="mm">mm</option>
+                        <option value="cm">cm</option>
+                        <option value="dm">dm</option>
+                        <option value="m">m</option>
+                        <option value="km">km</option>
+                </select>
+                <input id="pole" type="number">
+            <p id="text">Na co chcesz zamienic ?</p>
+            <select id="secondSelector">
+                <option>mm</option>
+                <option>cm</option>
+                <option>dm</option>
+                <option>m</option>
+                <option>km</option>
+            </select>
+            <input id="field" type="number">
+        </div>
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Didact+Gothic|Pathway+Gothic+One" rel="stylesheet">
+    <script defer src="main.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="container">
+        <div id="calculatorBox">
+            <div id="resultBox">
+                <input type="text" readonly="true"></input>
+            </div>
+            <div id="buttonsPart">
+                <button class="buttons" onclick="clearInput()">C</button>
+                <button class="buttons" onclick="getBracket('(')">(</button>
+                <button class="buttons" onclick="getBracket(')')">)</button>
+                <button class="buttons" onclick="backspace()"> ← </button>
+                <button class="buttons" onclick="getNumber(7)">7</button>
+                <button class="buttons" onclick="getNumber(8)">8</button>
+                <button class="buttons" onclick="getNumber(9)">9</button>
+                <button class="buttons" onclick="getOperand('-')">-</button>
+                <button class="buttons" onclick="getNumber(4)">4</button>
+                <button class="buttons" onclick="getNumber(5)">5</button>
+                <button class="buttons" onclick="getNumber(6)">6</button>
+                <button class="buttons" onclick="getOperand('*')">x</button>
+                <button class="buttons" onclick="getNumber(1)">1</button>
+                <button class="buttons" onclick="getNumber(2)">2</button>
+                <button class="buttons" onclick="getNumber(3)">3</button>
+                <button class="buttons" onclick="getOperand('/')">÷</button>
+                <button class="buttons" onclick="getNumber(0)">0</button>
+                <button class="buttons" onclick="getOperand('.')">.</button>
+                <button class="buttons" onclick="result()">=</button>
+                <button class="buttons" onclick="getOperand('+')">+</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
